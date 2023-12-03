@@ -1,0 +1,376 @@
+/* MAIN PAGE PANEL */
+ 
+#main {
+    background: rgba(44,58,55, .5);
+    background-size: 100%
+    
+}
+
+#sidebar {
+    position: relative;
+    padding-top: 15px;
+    background: rgba(90,95,94, .5);
+}
+
+
+#sidebar .card {
+    border: 0;
+    border-bottom: transparent;
+    background-color: #333;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.nav-tabs {
+    border-bottom: transparent;
+}
+
+#header .breadcrumb-nav {
+    background-color: #fff;
+}
+
+/* FONT */
+ 
+body {
+    font-family: Roboto;
+    color: #d7d9d8;
+}
+
+@import url('LINK" rel="stylesheet" ');
+
+
+/* BACKGROUND/CHAT BACKGROUND */
+
+
+body {
+    background: url('https://i.postimg.cc/SKy3knh9/redd-f-O1lz53o-VK2-M-unsplash-2.jpgg') 
+center fixed;
+    background-size: 100%;
+    
+    font-family:Roboto;
+}
+
+tr:nth-of-type(odd) {
+    background: transparent !important;
+}
+
+#sidebar .card {
+    background: rgba(156, 159, 158, .8);
+}
+
+/* WELCOME BACK */
+ 
+.navbar-status, .navbar-expand {
+    background: rgba(90,95,94, .5) !important;
+    color: #d7d9d8 !important;
+    font-family: Roboto !important;
+}
+
+.breadcrumb-item.active {
+    color: rgba(215, 217, 216);
+}
+
+/* CSS CREDIT */
+
+.breadcrumb::after {
+        content: "CSS by WillowBow #32923";
+        color: rgba(215, 217, 216);
+        position: absolute;
+        right: 4.5%;
+        z-index: 100
+    }
+
+
+/* PANEL BACKGROUND COLOR */
+.table {
+    background: rgba(44,58,55, .8);
+    background-size: 100%;
+    border: solid 5px#D7D9D8 !important;
+    border-collapse: separate;
+    border-radius: 0px;
+}
+
+html.nolayout body {
+    background-color: rgba(159, 198, 83, .39) !important;
+    background-image: none !important;
+}
+
+#header .breadcrumb-nav {
+    background-color: rgba(90,95,94, .8);
+}
+
+/* WOLF CARDs */
+
+#main .card {
+    border: none;
+    background:transparent;
+    background-size: 50%;
+    margin-bottom: 1rem;
+}
+
+.card-img-top {
+    width: 100%;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border: solid 5px;
+}
+
+.card-img-top {
+    width: 100%;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+
+}    
+
+img {
+    border-style: none;
+}
+
+.bg-light, .btn-light {
+    background: #fff;
+    color: rgba(215, 217, 216);
+}
+
+.bg-dark {
+    background-color: #fff;
+}
+
+.text-light {
+    color: rgba(215, 217, 216)!important;
+}
+
+
+.rounded-bottom, .rounded-right {
+    border-bottom-right-radius: 0px!important;
+}
+
+.rounded-bottom, .rounded-left {
+    border-bottom-left-radius: 0px!important;
+}
+
+.rounded-bottom, .rounded-left {
+    border-top-left-radius: 0px!important;
+}
+
+.rounded-bottom, .rounded-right {
+    border-top-right-radius: 0px!important;
+    border: solid 5px;
+}
+
+/* HEADERS COLOR ( Leader+Cave Headers ) */
+.top, 
+.bottom,
+th {
+    background: transparent !important;
+    color: rgba(215, 217, 216) !important;
+    border-radius: 8px;
+    text-align: left;
+}
+ 
+tr:nth-of-type(odd) {
+    background: rgba(44,58,55, .9) !important;
+}
+
+/* NAVBAR (DEN, CROSSROADS, HOARD) */
+ 
+.navbar-main {
+    background: rgba(44,58,55, .8) !important;
+    color: #D7D9D8 !important;
+    border-top-left-radius: 1px !important;
+    border-top-right-radius: 1px !important;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #ffffff;
+    background-color: transparent;
+    border-color: #e2e2e2 #e2e2e2 #333;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border-color: transparent;
+    color: #D7D9D8;
+}
+
+.nav-tabs .nav-link {
+    border: 1px none transparent;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.text-danger {
+    color: #D7D9D8!important;
+}
+
+/* CAVE NAME BAR */
+ 
+th.top {
+    background: rgba(156, 159, 158, .8) !important;
+    color: #D7D9D8 !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+}
+ 
+/* ALERTS */
+ 
+.alert {
+    background: rgba(166, 159, 158, .7);
+    border: solid 5px #fff;
+    color: #D7D9D8;
+}
+ 
+.alert-warning,
+.alert-danger {
+    background: rgba(166, 159, 158, .7);
+    color: #D7D9D8;
+}
+ 
+/* LINKS & LINK HOVER COLOR */
+ 
+a:link,
+a:visited {
+    color: #fbfbfb !important;
+}
+ 
+a:hover {
+    color: #fbfbfb !important;
+}
+ 
+/* Dropdown Options */
+ 
+input,
+select,
+textarea {
+    background: transparent !important;
+    border: none !important;
+    border-color: transparent;
+    border-radius: 5px;
+    box-shadow: none !important;
+    color: #000000 !important;
+    text-shadow: none !important;
+}
+ 
+/* SCROLL BAR */
+ 
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+ 
+ 
+/* SCROLL BAR BACKGROUND */
+ 
+::-webkit-scrollbar-track {
+    background: #f7f7f7;
+}
+ 
+/* SCROLL BAR (Scrolling thing) */
+ 
+::-webkit-scrollbar-thumb {
+    background: #d7d9d8;
+    border-radius: 4px;
+}
+ 
+.table .subheader {
+    background-color: rgba(44,58,55, .8);
+}
+
+/* TOPBAR (Names, Messages, Modbox+Terms of Service, Code of Conduct section) */
+ 
+#header .navbar-status{
+    background: rgba(4,58,55);
+    border: none;
+    border-top: none;
+    color: #d7d9d8;
+    border-radius: 12px;
+    font-family: Verdana;
+}
+ 
+.navbar {
+    background: #000000;
+    border-bottom: none;
+    font-family: Roboto;
+    border-radius: 6px;
+}
+
+#header .navbar-main .nav-link .fa {
+    width: 1.25rem;
+    height: 20px;
+    position: relative;
+    top: -1px;
+    font-size: 1rem;
+    color: #fff;
+    margin-right: 0.35rem;
+    text-align: center;
+}
+ 
+.navbar li a {
+    color: #fff !important;
+}
+ 
+/* PROGRESS BAR BACKGROUND */
+ 
+div.progress {
+    background: transparent!important;
+    
+}
+ 
+/* PROGRESS BARS */
+ 
+div.progress-bar {
+    background: linear-gradient(to bottom left, #fff, #c2c3c2)!important;
+        
+}
+
+/* PACK DYNASTY */
+img[src$="packdynasty.png"] {
+    content:url('https://i.postimg.cc/PrbTMygH/Eydb6-J0-UYAE7-h3.jpg')!important;
+    width:600px!important;
+    height:200px!important;
+}
+ 
+/* NESTING */
+img[src$="nesting.png"] {
+    content:url('https://i.postimg.cc/0y8xXmvw/Ea-Lk-Smy-UMAEdf-Tm.jpg')!important;
+    width:600px!important;
+    height:200px!important;
+}
+ 
+/* OVERVIEW */
+img[src$="packoverview.png"] {
+    content:url('https://i.postimg.cc/qv1ZG6QQ/Fkhdmm-XVQAAHJPg.jpg')!important;
+    width:600px!important;
+    height:200px!important;
+}
+ 
+/* BREEDING */
+img[src$="breeding.png"] {
+    content:url('https://i.postimg.cc/FzFLGzTg/FMS0kwj-XMAY4-Vk-H.jpg')!important;
+    width:600px!important;
+    height:200px!important;
+ 
+}
+
+/* SOCIALIZING */
+img[src$="socializing.png"] {
+    content:url('https://i.postimg.cc/WbcsrCfS/EDj-K924-Xo-AETKT.jpg')!important;
+    width:600px!important;
+    height:200px!important;
+
+}
+
+/* PUPSITTING */
+img[src$="pupsitting.png"] {
+    content:url('https://i.postimg.cc/g2NpCJcB/ENZDje9-UUAIYw-V.jpg')!important;
+    width:600px!important;
+    height:200px!important;
+
+}
+
+.Box1 {background: rgba(44,58,55,.7);border: 0px solid black;border-radius: 10px;margin: 50px;float: left;height: 200px;width: 300px;padding: 2px;overflow: auto;transition: 1.5s}
+.Box3 {background: rgba(44,58,55,.7);border: 0px solid black;border-radius: 10px;margin: 10px;float: right;height: 200px;width: 300px;padding: 2px;overflow: auto;transition: 1.5s}
+.Box1:hover, .Box3:hover {height: 500px}
+
+
+div.w-50 > div {
+    border: none !important;
+}
